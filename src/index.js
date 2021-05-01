@@ -7,7 +7,8 @@ const {
 } = require("./utils");
 
 function main() {
-  const eventsText = readEvents("./examples/index.js");
+  const filePath = process.argv.slice(2)[0];
+  const eventsText = readEvents(filePath);
 
   if (eventsText) {
     const tokens = tokenize(eventsText);
