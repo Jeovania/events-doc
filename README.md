@@ -6,12 +6,12 @@ A node script to generate a json doc file from objects
 
 Run
 
-> npm run doc {filepath}
+> yarn (or npm) doc {filepath}
 
 ** Example: **
 
 ```
-> npm run doc ./examples/index.js
+> yarn doc ./examples/index.js
 ```
 
 The script will generate a data.json file

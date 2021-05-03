@@ -1,6 +1,6 @@
 const esprima = require("esprima");
 const fs = require("fs");
-const { TYPES, ACCEPTED_TYPES } = require("./types");
+const { TYPES, ACCEPTED_TYPES } = require("./constants");
 
 /**
  * Read and return a file content
